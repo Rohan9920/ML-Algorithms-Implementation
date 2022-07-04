@@ -5,6 +5,9 @@ This is a supervised algorithm predicting a continuous value using the best fit 
 ## Algorithm steps: (Gradient Descent)
 
 - Add a column of one to the dataset (for theta0).
+```
+np.concatenate(np.ones((m,1)), X)
+```
 - Scale the predictor variables (*Important step for gradient descent. If not scaled, the cost function keeps on increasing and eventually runs into overflow error*)
 - Run a loop for n iterations.
 - Minimize theta(regression co-efficients): In each iteration, calculate theta by using the derivative of the cost function.
