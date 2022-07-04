@@ -15,3 +15,6 @@ This is a supervised algorithm predicting a continuous value using the best fit 
 - Learning rate : Too less and algorithm converges slowly. Too high and algorithm may never find global minima.
 - Iterations: Start with an arbitrary number. Verify if cost function remains stable as the iterations near to end.
 
+## Files:
+[lr_test.py](https://github.com/Rohan9920/ML-Algorithm-Implementations/blob/main/Linear_Regression/lr_test.py): Reads the dataset and calls the functions.  
+[Multiple_Linear_Regression.py](https://github.com/Rohan9920/ML-Algorithm-Implementations/blob/main/Linear_Regression/Multiple_Linear_Regression.py): Includes all function definitions.
