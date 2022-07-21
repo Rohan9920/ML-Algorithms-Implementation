@@ -8,6 +8,7 @@ This is a classification algorithm is based on the Naive Bayes theorem. It uses 
 - The algorithm assumes that all the predictor features are independent. 
 - Can be used as a baseline algorithm for classification.
 - Laplace smoothing must be used to avoid zero probability issue.
+- NB algorithm is sensitive to skewed features. When training data is not representative of the whole population, the prior estimates will be incorrect.
 
 ## Algorithm steps: ##
 The example used in the code is 'classification of text messages into spam/not spam'.
