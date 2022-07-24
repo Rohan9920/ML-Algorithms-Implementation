@@ -4,7 +4,8 @@ Decision Tree is a supervised learning algorithm that uses a tree-like model of 
 
 ## Algorithm steps:
 
-- Feature values need to be categorical. If the values are continuous then they are discretized prior to building the model.
+- Feature values need to be categorical. Non-numeric categorical features need to be one hot encoded for sklearn implementation.
+- Numeric categorical features will be treated as continuous variables in sklearn. For eg: A feature 'X' with classes 0,1 and 2 would be treated as a continuous column.
 - Iterate through each feature and each distinct value for each feature and calculate information gain for the node.
 ```
 Information Gain = Entropy (Parent) - Entropy (Child) {Gini impurity could also be used to calculate Information gain}
