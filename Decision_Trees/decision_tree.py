@@ -53,7 +53,7 @@ class DecisionTree:
     def _grow_tree(self, X, y, depth=0):
         """
             This is a recursive function which grows the tree. It iterates through all the columns and column values
-            and performs classification based on highest information gain.
+            and performs classification based on the highest information gain.
         """
         
         n_samples, n_features = X.shape
