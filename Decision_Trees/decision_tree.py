@@ -99,7 +99,7 @@ class DecisionTree:
             Calculates information gain for each column and threshold.
             Value between 0 and 1.
             0 means no new information can be gained from children. Parent is already a leaf node.
-            1 means child nodes are 100% pure.
+            1 means child nodes are 100% pure and parent node has equal percentage of all the classes.
         """
             # parent Entropy
         parent_entropy = entropy(y)
